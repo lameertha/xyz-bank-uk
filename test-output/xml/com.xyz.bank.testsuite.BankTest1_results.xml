@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BankTest1"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.390">
+  <properties />
+  
+  
+            <testcase name="bankManagerShouldOpenAccountSuccessfully" time="1.390" classname="com.xyz.bank.testsuite.BankTest1" />
+      
+</testsuite>

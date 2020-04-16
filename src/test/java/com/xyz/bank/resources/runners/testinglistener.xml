@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1" >
+    <listeners>
+        <listener class-name="com.xyz.bank.listeners.Listeners"></listener>
+    </listeners>
+    <test name="BankTest" >
+        <classes>
+            <class name="com.xyz.bank.testsuite.BankTest"/>
+        </classes>
+    </test>
+    <test name="BankTest1" >
+        <classes>
+            <class name="com.xyz.bank.testsuite.BankTest1"/>
+        </classes>
+    </test>
+    <test name="BankTest2" >
+        <classes>
+            <class name="com.xyz.bank.testsuite.BankTest2"/>
+        </classes>
+    </test>
+    <test name="BankTest3" >
+        <classes>
+            <class name="com.xyz.bank.testsuite.BankTest3"/>
+        </classes>
+    </test>
+    <test name="BankTest4" >
+        <classes>
+            <class name="com.xyz.bank.testsuite.BankTest4"/>
+        </classes>
+    </test>
+    <test name="BankTest5" >
+        <classes>
+            <class name="com.xyz.bank.testsuite.BankTest5"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" verbose="1" >
+    <groups>
+        <run>
+            <include name="smoke"></include>
+        </run>
+    </groups>
+    <test name="BankTest" >
+        <classes>
+            <class name="com.xyz.bank.testNG.TestNGGrouping"/>
+        </classes>
+    </test>
+    <test name="BankTest1" >
+        <classes>
+            <class name="com.xyz.bank.testNG.TestNGGrouping"/>
+        </classes>
+    </test>
+    <test name="BankTest2" >
+        <classes>
+            <class name="com.xyz.bank.testNG.TestNGGrouping"/>
+        </classes>
+    </test>
+    <test name="BankTest3" >
+        <classes>
+            <class name="com.xyz.bank.testNG.TestNGGrouping"/>
+        </classes>
+    </test>
+    <test name="BankTest4" >
+        <classes>
+            <class name="com.xyz.bank.testNG.TestNGGrouping"/>
+        </classes>
+    </test>
+    <test name="BankTest5" >
+        <classes>
+            <class name="com.xyz.bank.testNG.TestNGGrouping"/>
+        </classes>
+    </test>
+</suite>

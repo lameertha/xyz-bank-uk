@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="testsuite" verbose="1" >
+    <listeners>
+        <listener class-name="com.xyz.bank.listeners.Listeners"></listener>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+
+    <test name="BankTest" >
+        <parameter name="FirstName" value="LAMEERTHA"></parameter>
+        <parameter name="LastName" value="THEVARAJAH"></parameter>
+        <parameter name="PostCode" value="UB25LJ"></parameter>
+        <classes>
+            <class name="com.xyz.bank.testsuite.BankTest" />
+        </classes>
+    </test>
+    <test name="BankTest1" >
+    <parameter name="CustomerNameSelect" value="Harry Potter"></parameter>
+    <parameter name="CurrencySelector" value="Pound"></parameter>
+    <classes>
+        <class name="com.xyz.bank.testsuite.BankTest1" />
+    </classes>
+</test>
+    <test name="BankTest2" >
+        <parameter name="YourName" value="Harry Potter"></parameter>
+        <classes>
+            <class name="com.xyz.bank.testsuite.BankTest2" />
+        </classes>
+    </test>
+    <test name="BankTest3" >
+        <parameter name="YourName" value="Harry Potter"></parameter>
+        <parameter name="AmountShouldBeDeposit" value="10000"></parameter>
+        <classes>
+            <class name="com.xyz.bank.testsuite.BankTest3" />
+        </classes>
+    </test>
+    <test name="BankTest4" >
+        <parameter name="YourName" value="Harry Potter"></parameter>
+        <parameter name="AmountToBeWithdrawn" value=""></parameter>
+        <classes>
+            <class name="com.xyz.bank.testsuite.BankTest4" />
+        </classes>
+    </test>
+    <test name="BankTest5" >
+        <parameter name="YourName" value="LAMEERTHA THEVARAJAH"></parameter>
+        <classes>
+            <class name="com.xyz.bank.testsuite.BankTest5" />
+        </classes>
+    </test>
+
+</suite>
